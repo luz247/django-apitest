@@ -1,19 +1,69 @@
-# Archivos de Python
+# Archivos y directorios de Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.manifest
+*.spec
 
-# Archivos de base de datos
-db.sqlite3
-
-# Entorno virtual
-venv/
+# Virtual environments
 env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Archivos de Django y de sistema
+# Archivos de configuración de IDEs y editores
 .vscode/
-media/
-static/
-.env
+.idea/
+*.swp
+*.swo
 
-# Archivos de logs y archivos sensibles
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
 *.log
+
+# Archivos de Django
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Archivos de migraciones (opcional si quieres ignorarlos)
+# Solo ignora si no quieres versionar migraciones
+# **/migrations/*.py
+# !**/migrations/__init__.py
+
+# Entornos y variables de entorno
+.env
+*.env
+.env.*
+
+# Archivos de coverage y testing
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+
+# Archivos de JetBrains
+*.iml
+out/
