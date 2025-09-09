@@ -1,0 +1,19 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Archivos de base de datos
+db.sqlite3
+
+# Entorno virtual
+venv/
+env/
+
+# Archivos de Django y de sistema
+.vscode/
+media/
+static/
+.env
+
+# Archivos de logs y archivos sensibles
+*.log
